@@ -1,0 +1,27 @@
+{
+  "name": "fractally_bot_rus",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": "16.16.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Abdurrahmon-xoja/fractally_bot_rus.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Abdurrahmon-xoja/fractally_bot_rus/issues"
+  },
+  "homepage": "https://github.com/Abdurrahmon-xoja/fractally_bot_rus#readme",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "telegraf": "^4.8.6"
+  }
+}
