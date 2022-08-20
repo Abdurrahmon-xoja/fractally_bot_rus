@@ -16,14 +16,11 @@ function getHive(hiveID){
                 avg += +revers[i]
             }
             objectValue.reverse()
-            console.log(Math.round(avg / 6))
-            result = `result of ${objectValue.length}'s  meeting ${hiveID} hive account level is ${objectValue[objectValue.length - 1]} and avg is ${Math.round(avg / 6)}`
+            result = `Результат ${objectValue.length} встречи ${hiveID}  учетной записи уровень ${objectValue[objectValue.length - 1]} и средний уровень ${Math.round(avg / 6)}`
         }
     })
     return result
 }
-
-getHive('dan')
 
 function isExist(hiveID){
     let exist = false

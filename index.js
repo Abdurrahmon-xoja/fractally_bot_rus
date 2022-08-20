@@ -7,16 +7,16 @@ const bot = new Telegraf(process.env.telegramBotToken)
 
 
 bot.start(ctx => {
-    ctx.reply('write hive account')
+    ctx.reply('напишите учетную запись hive')
 })
 
 
 bot.on('message', ctx => {
     if (isExist(ctx.message.text)) {
         ctx.reply(getHive(ctx.message.text))
-        ctx.reply('write hive account')
+        ctx.reply('напишите учетную запись hive')
     } else {
-        ctx.reply('this hive account not exist try another one')
+        ctx.reply('этой учетной записи hive не существует, попробуйте другую')
     }
 
 
